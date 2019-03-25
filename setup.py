@@ -48,7 +48,7 @@ def README():
 README = README()  # NOQA
 
 
-setup(name="python-dateutil",
+setup(name="python3-dateutil" if sys.argv[1] == "bdist_rpm" else "python-dateutil",
       use_scm_version={
           'write_to': 'dateutil/_version.py',
       },

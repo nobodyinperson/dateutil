@@ -42,6 +42,11 @@ dateutil - powerful extensions to datetime
 The `dateutil` module provides powerful extensions to
 the standard `datetime` module, available in Python.
 
+SailfishOS Package
+==================
+
+Build a SailfishOS RPM package from this branch via ``python3 setup.py bdist_rpm``.
+
 Installation
 ============
 `dateutil` can be installed from PyPI using `pip` (note that the package name is
